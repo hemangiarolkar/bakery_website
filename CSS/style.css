@@ -1,0 +1,1411 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+.main_home{
+    background-color: #c98d83;
+    height: 80vh;
+    /* width: 1400; */
+    margin-top: 80px;
+    padding-top: 100px;
+ 
+}
+
+
+
+
+.navbar{
+    display: flex;
+    height: 120px;
+    width: 100%;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #c98d83;
+    z-index: 99;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.navbar .img{
+
+}
+.navbar .menu{
+
+}
+.navbar .menu ul{
+    display: flex;
+    align-items: center;
+}
+.navbar .menu ul li{
+    list-style-type: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.navbar .menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+}
+.navbar .menu ul li a:hover{
+    color: #783b31;
+}
+/* .navbar .menu{
+    font-size: 16px;
+    margin: 20px;
+}
+ul{
+}
+.navbar .menu ul li{
+    list-style-type: none;
+    padding: 10px;
+    display: inline;
+
+}
+.navbar .menu ul li a{
+    color: white;
+} */
+#active{
+    color: #783b31;
+}
+
+.cookie_color{
+    color: #783b31;
+}
+.title{
+    font-size: 70px;
+    color: white;
+    margin: 80px;
+    font-family: "Playfair Display";
+    font-weight: 900;
+    line-height: .7px;
+    text-align: center;
+   
+}
+.title_div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.btn_css1{
+    height: 50px;
+    width: 280px;
+    border: 0px;
+    font-size: 20px;
+    color: white;
+    border-top-left-radius: 4em 5em;
+    border-top-right-radius: 4em 5em;
+    border-bottom-right-radius: 4em 5em;
+    border-bottom-left-radius: 4em 5em;
+    background-color: #783b31;
+    margin-left: 170px;
+    margin-top: -16px;
+    letter-spacing: 2px;
+}
+.cookies-main{
+    height: 500px;
+    width: 100%;
+}
+.page_2{
+    /* height: 100vh; */
+    width: 100%;
+}
+.about_us{
+    color: #ffc4c4;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    
+}
+.about_us2{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Playfair Display";
+    color: #783b31;
+}
+.all_cookies{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.cookies_text{
+    height: 200px;
+    width: 200px;
+    
+}
+.cook_text{
+    font-size: 24px;
+    color:#783b31;
+    text-align: center;
+    font-family: "Playfair Display";
+    line-height: 30px;
+
+    
+    
+}
+.cook_text2{
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    color: #555162;
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+
+}
+.btn_css2{
+    height: 50px;
+    width: 250px;
+    border: 0px;
+    font-size: 14px;
+    color: white;
+    border-top-left-radius: 4em 5em;
+    border-top-right-radius: 4em 5em;
+    border-bottom-right-radius: 4em 5em;
+    border-bottom-left-radius: 4em 5em;
+    background-color: #783b31;
+    margin-left: 600px;
+    margin-top: 50px;
+    letter-spacing: 2px;
+}
+.page_3{
+    /* height: 100vh; */
+    width: 100%;
+    position: relative;
+
+}
+.black_image{
+    /* position: absolute; */
+    height: 650px;
+    width: 100%;
+    margin-top: 100px;
+}
+.inside_img{
+    height: 500px;
+    width: 1400px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    
+    
+    
+}
+.inside_img_text1{
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.inside_img_text2{
+    font-family: "Playfair Display";
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 900;
+
+}
+.inside_img_text3{
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+
+}
+.comp_color{
+    color:#ffc4c4;
+}
+.design_pic{
+    height: 70px;
+    width: 50px;
+}
+.design_div1{   
+    height: 230px;
+    width: 190px;
+    position: absolute;
+    z-index: 1;
+    left: 200px;
+    
+}
+.year_div1{
+    position: absolute;
+    z-index: 0;
+    top: 5px;
+    margin: 30px;
+    font-size: 70px;
+    line-height: 50px;
+    font-family: "Playfair Display";
+    color:#ffc4c4;
+}
+.year_text1{
+    font-size: 16px;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    line-height: 26px;
+}
+.design_div2{   
+    height: 230px;
+    width: 190px;
+    position: absolute;
+    z-index: 2;
+    left: 500px;
+    
+}
+.year_div2{
+    position: absolute;
+    z-index: 0;
+    top: 5px;
+    margin: 30px;
+    font-size: 70px;
+    line-height: 50px;
+    font-family: "Playfair Display";
+    color:#ffc4c4;
+}
+.year_text2{
+    font-size: 16px;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    line-height: 26px;
+}
+.design_div3{   
+    height: 230px;
+    width: 190px;
+    position: absolute;
+    z-index: 3;
+    left: 800px;
+    
+}
+.year_div3{
+    position: absolute;
+    z-index: 0;
+    top: 5px;
+    margin: 30px;
+    font-size: 70px;
+    line-height: 50px;
+    font-family: "Playfair Display";
+    color:#ffc4c4;
+}
+.year_text3{
+    font-size: 16px;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    line-height: 26px;
+    
+}
+.design_div4{   
+    height: 230px;
+    width: 195px;
+    position: absolute;
+    z-index: 4;
+    left: 1100px;
+    
+}
+.year_div4{
+    position: absolute;
+    z-index: 0;
+    top: 5px;
+    margin: 30px;
+    font-size: 70px;
+    line-height: 50px;
+    font-family: "Playfair Display";
+    color:#ffc4c4;
+}
+.year_text4{
+    font-size: 16px;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    line-height: 26px;
+    
+}
+.horizontal_img{
+    height: 80px;
+    position: relative;
+    top: 250px;
+    left: 20px;
+}
+.page_4{
+    margin-top: 200px;
+    /* height: 100vh; */
+    width: 100%;
+
+}
+.about_us3{
+    color: #ffc4c4;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    
+}
+.about_us4{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Playfair Display";
+    color: #783b31;
+    margin-top: -20px;
+    
+}
+.two_packs{
+    display: flex;
+    justify-content: space-evenly;
+}
+.brown_pack{
+    height: 350px;
+    width: 450px;
+    
+}
+.blue_pack{
+    height: 350px;
+    width: 450px;
+}
+.brown_pack_div{
+    height: 700px;
+    width: 300px;
+    /* border: 1px solid black; */
+}
+.blue_pack_div{
+    height: 700px;
+    width: 450px;
+    /* border: 1px solid black; */
+}
+.brown_pack_div_text{
+    height: 300px;
+    width: 500px;
+    /* border: 1px solid black; */
+}
+.brown_pack_title{
+    color: #783b31;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.brown_pack_weight{
+    font-size: 20px;
+    line-height: 10px;
+    font-weight: 400;
+    color: #783b31;
+    text-align: center;
+}
+.brown_pack_para{
+    font-size: 16px;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    color: #555162;
+    line-height: 1.4;
+    
+    
+}
+.blue_pack_title{
+    color: #7cb2b7;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.blue_pack_weight{
+    font-size: 20px;
+    line-height: 10px;
+    font-weight: 400;
+    color: #7cb2b7;
+    text-align: center;
+}
+.blue_pack_para{
+    font-size: 16px;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    color: #555162;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    
+}
+.btn_css3{
+    background-color: #471e1e;
+    height: 50px;
+    width: 400px;
+    border: 0px;
+    font-size: 14px;
+    color: white;
+    border-top-left-radius: 4em 5em;
+    border-top-right-radius: 4em 5em;
+    border-bottom-right-radius: 4em 5em;
+    border-bottom-left-radius: 4em 5em;
+    letter-spacing: 2px;
+}
+.btn_css4{
+    background-color: #7cb2b7;
+    height: 50px;
+    width: 400px;
+    border: 0px;
+    font-size: 14px;
+    color: white;
+    border-top-left-radius: 4em 5em;
+    border-top-right-radius: 4em 5em;
+    border-bottom-right-radius: 4em 5em;
+    border-bottom-left-radius: 4em 5em;
+    letter-spacing: 2px;
+}
+.page_5{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.donut_img{
+    height: 900px;
+    width: 100%;
+    margin-top: 250px;
+    /* position: relative; */
+}
+.donuts_div{
+    height: 250px;
+    width: 500px;   
+    position: absolute;
+    bottom: 100px;
+    left: 474px;
+    text-align: center;
+}
+.donuts_text1{
+    font-size: 15px;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    
+    
+}
+.donuts_text2{
+    font-size: 70px;
+    line-height: 8  0px;
+    font-weight: 900;
+    font-family: "Playfair Display";
+    color: #783b31;
+    
+    
+}
+.donuts_text3{
+    font-size: 16px;
+    color: white;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+}
+.btn_css5{
+    height: 50px;
+    width: 520px;
+    border: 0px;
+    font-size: 14px;
+    color: white;
+    border-top-left-radius: 4em 5em;
+    border-top-right-radius: 4em 5em;
+    border-bottom-right-radius: 4em 5em;
+    border-bottom-left-radius: 4em 5em;
+    background-color: #783b31;
+    margin-top: 50px;
+    letter-spacing: 2px;
+}
+.footer{
+    margin-top: 500px;
+    height: 50vh;
+    width: 1400px;
+    background-color: crimson;
+    
+}
+.footer_div1{
+    height: 255px;
+    width: 150px;
+    border: 1px solid black;
+    margin: 250px;
+    text-align: center;
+    color: #783b31;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: "Playfair Display", Helvetica, Arial, sans-serif;
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px){
+
+    
+    .main_home{
+        height: 50vh;
+        /* width: 1400; */
+        margin-top: 40px;
+     
+    }
+    .title{
+        font-size: 40px;
+        /* line-height: .1px; */
+    }
+    .btn_css1{
+        font-size: 10px;
+        margin-right: 180px;
+        height: 40px;
+        /* width: 150px; */
+        
+    }
+    .all_cookies{
+        display: block;
+        padding-left: 150px;
+    }
+    .cookies-main{
+        height: 200px;
+        width: 80%;
+        margin-left: 70px;
+    }
+
+    .about_us2{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .btn_css2{
+        /* height: 30px;
+        width: 200px; */
+        margin-left: 130px;
+        margin-top: 50px;
+        letter-spacing: 2px;
+    }
+
+    /* .page_3{
+        display: block;
+    } */
+
+    
+    .two_packs{
+        display: block;
+    }
+    .brown_pack{
+        height: 180px;
+        width: 220px;
+        margin-left: 130px;
+    }
+
+        
+
+    .blue_pack{
+        height: 180px;
+        width: 220px;
+        margin-left: 130px;
+    }
+
+    .footer_div{
+        display: block;
+    }
+    
+}
+
+    
+.recipe_main{
+    height: 80vh;
+    background-color: #c98d83;
+    width: 100%;
+    margin-top: 80px;
+    
+
+}
+.recipe_heading{
+    background-color: #c98d83;
+    height: 300px;
+    width: 800px;
+    margin-left: 320px;
+    margin-top: 120px;
+    padding-top: 80px;
+}
+.recipes_color{
+    color: #783b31;
+    
+
+}
+.text_recipe{
+    color: white;
+    font-size: 80px;
+    line-height: 70px;
+    font-weight: 700;
+    text-align: center;
+}
+.text_recipe2{
+    color: #783b31;
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: "Playfair Display";
+    text-align: center;
+}
+.about_us5{
+    color: #ffc4c4;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    line-height: 40px;
+
+}
+.about_us6{
+    color: #783b31;
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 900;
+    font-family: "Playfair Display";
+    text-align: center;
+}
+.cookie1{
+    display: flex;
+}
+.cookie_img1{
+    height: 180px;
+    width: 220px;
+    margin: 150px;
+}
+.cookie_info1{
+    height: 280px;
+    width: 500px;
+    background-color: #ffeded;
+    padding: 70px 10% 55px;
+    border-radius: 80px;
+
+}
+.info_text1{
+    color: #783b31;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    font-family: "Playfair Display";
+}
+.info_text2{
+    color: #555162;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+}
+.cookie2{
+       display: flex;
+       margin-left: 50px;
+}
+.cookie_img2{
+    height: 180px;
+    width: 220px;
+    margin: 150px;
+}
+.cookie3{
+    display: flex;
+}
+.cookie_img3{
+    height: 180px;
+    width: 220px;
+    margin: 150px;
+}
+.cookie4{
+    display: flex;
+    margin-left: 50px;
+}
+.cookie_img4{
+    height: 180px;
+    width: 220px;
+    margin: 150px;
+}
+.about_us5{
+    color: #ffc4c4;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    line-height: 40px;
+
+}
+.about_us6{
+    color: #783b31;
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 900;
+    font-family: "Playfair Display";
+    text-align: center;
+}
+.main_recipe_pic{
+    display: flex;
+    justify-content: space-evenly;
+}
+.recipe_pic{
+    height: 500px;
+    width: 500px;
+}
+
+.recipes_img_cont{
+    font-size: 40px;
+    color: #783b31;;
+    font-weight: 700;
+    letter-spacing: 0px;
+    line-height: 10px;
+    /* margin-left: 50px; */
+    margin-left: 50px;
+
+
+}
+.recipes_img_cont1{
+    font-size: 20px;
+    letter-spacing: .5px;
+    line-height: 1.3;
+    margin-left: 50px;
+    padding-right: 20px;
+    border: 1px solid green;
+}
+
+/* New */
+.recipe_main_div{
+    padding-left: 170px;
+    padding-right: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    margin-top: 110px;
+}
+.recipe_main_div .left{
+    width: 50%;
+}
+.recipe_main_div .left img{
+    width: 80%;
+}
+.recipe_main_div .right img{
+    width: 80%;
+}
+.recipe_main_div .right{
+    width: 50%;
+}
+.recipe_main_div .left .content_div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 30px;
+}
+.recipe_main_div .right .content_div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 30px;
+}
+.recipe_main_div .left .content_div h3{
+    font-size: 40px;
+    color: #783b31;;
+    font-weight: 700;
+    letter-spacing: 0px;
+}
+.recipe_main_div .right .content_div h3{
+    font-size: 40px;
+    color: #783b31;;
+    font-weight: 700;
+    letter-spacing: 0px;
+
+}
+.recipe_main_div .left .content_div p{
+    font-size: 18px;
+    letter-spacing: .5px;
+    margin-top: -10px;
+    line-height: 1.2;
+}
+.recipe_main_div .right .content_div p{
+    font-size: 18px;
+    letter-spacing: .5px;
+    margin-top: -10px;
+    line-height: 1.2;
+}
+    /* ========CSS FOR PRODUCTS======= */
+
+.product_page_1{
+background-color: #c98d83;
+    height: 60vh;
+    width: 100%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.product_title{
+    font-size: 80px;
+    color: white;
+    margin-top: 120px;
+    font-family: "Playfair Display";
+    font-weight: 800;
+    line-height: 80px;
+    text-align: center;
+    padding-top: 120px;
+    
+    }
+    
+    .product_color{
+    color: #783b31;
+    }
+    
+    .product_title2{
+    text-align: center;
+    font-size: 25px;
+    color: #783b31;
+    font-weight: 200;
+    line-height: 5px;
+
+    }
+
+    .btn_product{
+    height: 50px;
+    width: 200px;
+    border: 0px;
+    font-size: 14px;
+    color: white;
+    border-top-left-radius: 4em 5em;
+    border-top-right-radius: 4em 5em;
+    border-bottom-right-radius: 4em 5em;
+    border-bottom-left-radius: 4em 5em;
+    background-color: #783b31;
+    margin-left: 620px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    font-family: "Inter";
+    font-weight: 600;
+    align-items: center;
+}
+
+.product_title3{
+    text-align: center;
+    color: #783b31;
+    font-size: 70px;
+    line-height: 5px;
+    font-weight: 900;
+}
+
+.product_page_2{
+    height: 109vh;
+    width: 100%;
+
+}
+
+.product_img{
+    margin-left: 383px;
+}
+
+.product_page_3{
+    height: 100vh;
+    width: 100%;
+}
+
+.wheat_cookie{
+    font-size: 40px;
+    color: #783b31;
+    text-align: center;
+    font-weight: 700;
+    font-family: "Playfair Display", Helvetica, Arial, sans-serif;
+    
+    
+}
+
+.g_250{
+    text-align: center;
+    font-weight: 400;
+    color: #783b31;
+    font-size: 20px;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+}
+
+.main_wheat_cookie{
+    text-align: center;
+    height: 600px;
+    width: 720px;
+    margin-left: 411px;
+}
+.sub_p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #555162;
+}
+
+.btn_product_read{
+    height: 50px;
+    width: 200px;
+    border: 0px;
+    font-size: 14px;
+    color: white;
+    border-top-left-radius: 4em 5em;
+    border-top-right-radius: 4em 5em;
+    border-bottom-right-radius: 4em 5em;
+    border-bottom-left-radius: 4em 5em;
+    background-color: #471e1e;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-family: "Inter";
+    font-weight: 600;
+    align-items: center;
+}
+
+.product_page_4{
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.seasam_cookie{
+    font-size: 40px;
+    color: #7CB2B7;
+    font-weight: 700;
+    font-family: "Playfair Display", Helvetica, Arial, sans-serif;
+    
+}
+
+.g_230{
+    font-weight: 400;
+    color: #7CB2B7;
+    font-size: 20px;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+}
+
+.btn_product_seasam{
+    height: 50px;
+    width: 200px;
+    border: 0px;
+    font-size: 14px;
+    color: white;
+    border-top-left-radius: 4em 5em;
+    border-top-right-radius: 4em 5em;
+    border-bottom-right-radius: 4em 5em;
+    border-bottom-left-radius: 4em 5em;
+    background-color: #7CB2B7;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-family: "Inter";
+    font-weight: 600;
+    align-items: center;
+}
+
+.handmade_cookie{
+    font-size: 40px;
+    color: #ffc4c4;
+    font-weight: 700;
+    font-family: "Playfair Display", Helvetica, Arial, sans-serif;
+    
+}
+
+.h_250{
+    text-align: center;
+    font-weight: 400;
+    color: #ffc4c4;
+    font-size: 20px;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+}
+
+.btn_product_handmade{
+    height: 50px;
+    width: 200px;
+    border: 0px;
+    font-size: 14px;
+    color: white;
+    border-top-left-radius: 4em 5em;
+    border-top-right-radius: 4em 5em;
+    border-bottom-right-radius: 4em 5em;
+    border-bottom-left-radius: 4em 5em;
+    background-color: #ffc4c4;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-family: "Inter";
+    font-weight: 600;
+    align-items: center;
+}
+
+.Cookies_page_3{
+    background: url(../IMAGES/baker3-section-bg3.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.inside_img_product{
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.product_inside_text{
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    line-height: 5px;
+    font-weight: 900;
+    }
+
+.inside_p{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+}
+
+.btn_product_contact{
+    /* height: 50px; */
+    width: 200px;
+    border: 0px;
+    font-size: 14px;
+    color: white;
+    border-top-left-radius: 4em 5em;
+    border-top-right-radius: 4em 5em;
+    border-bottom-right-radius: 4em 5em;
+    border-bottom-left-radius: 4em 5em;
+    background-color: black;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-family: "Inter";
+    font-weight: 600;
+    align-items: center;
+}
+
+.inside_pro_img{
+    /* height: 500px; */
+    width: 1400px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    /* margin-top: 30px; */
+    margin-left: 80px;
+    
+}
+
+.footer_div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+
+.first_foot{
+    height: 300px;
+    width: 420px;
+    text-align: center;
+    color: #783b31;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 10px;  
+    margin-top: 15px;
+    
+}
+
+.second_foot{
+    height: 400px;
+    width: 450px;
+    text-align: center;
+}
+
+.third_foot{
+    height: 300px;
+    width: 500px;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555162;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    line-height: 26px;
+    margin-right: 200px;
+   
+}
+
+.logo_imag{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ul_footer {
+    
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    }
+    
+.nav-link{
+    display: block;
+    text-decoration: none;
+    color: #555162;
+    list-style: square;
+    }
+
+.footer_p{
+    color: #783b31;
+    font-size: 15px;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    }
+
+.footer_num{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Playfair Display", Helvetica, Arial, sans-serif;
+    color: #783b31;
+
+}
+
+.copyright{
+text-align: center;
+font-size: 16px;
+color: #555162;
+font-family: "Inter", Helvetica, Arial, sans-serif;
+}
+
+    /* ++++++++About----CSS====== */
+
+    .about_title{
+    font-size: 80px;
+    color: white;
+    margin: 35px;
+    font-family: "Playfair Display";
+    font-weight: 900;
+    line-height: 2px;
+    text-align: center;
+    padding-top: 95px;
+    
+    }
+
+    .about_color{
+    color: #783b31;
+    }
+
+    .produce_color{
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #FFC4C4;
+    }
+
+    .about_recip{
+    text-align: center;
+    font-size: 80px;
+    font-family: "Playfair Display";
+    color: #783b31;
+    
+}
+
+.about_main{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    
+}
+
+
+.about_img{
+    height: 400px;
+    width: 500px;
+    text-align: center;
+    color: #783b31;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 10px;  
+    margin-top: 15px;
+    /* border: 1px solid black; */
+    
+}
+.about_main_contant{
+    height: 400px;
+    width: 450px;
+    /* border: 1px solid black; */
+    margin-top: 15px;
+
+}
+
+.about_contant{
+    font-size: 24px;
+    line-height: 5px;
+    font-weight: 500;
+    color: #555162;
+}
+
+.about_page_2{
+    height: 280vh;
+    width: 100%;
+    /* border: 1px solid black; */
+
+}
+
+.abt_img_size{
+    max-width:100%;
+    height:100%;
+}
+.about_contant2{
+    font-size: 16px;
+    line-height: 6px;
+    font-weight: 400;
+    color: #555162;
+    margin-top: 40px;
+}
+.about_contant3{
+    font-size: 16px;
+    line-height: 6px;
+    font-weight: 400;
+    color: #555162;
+    margin-top: 40px;
+}
+
+
+
+.text_num{
+    position: relative;
+    
+}
+.year1{
+    color: #ffc4c4;
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 700;
+    margin-left: 30px;
+    font-family: 'Playfair Display',Arial,Tahoma,sans-serif;
+
+}
+.design_pic1{
+    height: 70px;
+    width: 50px;
+    position: absolute;
+    margin-left: 80px;
+
+}
+.black_div{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    border-top-left-radius: 40em 10em;
+    border-top-right-radius: 40em 10em;
+    border-bottom-right-radius: 40em 10em;
+    border-bottom-left-radius: 40em 10em;
+}
+
+
+
+.main_contact{
+    background-color: #c98d83;
+    width: 1460px;
+    height: 510px;
+    /* padding-top: 200px; */
+    margin-top: 80px;
+    padding-top: 100px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    box-sizing: border-box;
+    
+}
+
+
+.btn_contact_p{
+    height: 50px;
+    width: 200px;
+    border: 0px;
+    font-size: 14px;
+    color: white;
+    border-top-left-radius: 4em 5em;
+    border-top-right-radius: 4em 5em;
+    border-bottom-right-radius: 4em 5em;
+    border-bottom-left-radius: 4em 5em;
+    background-color: #783b31;
+    margin-left: 180px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    font-family: "Inter";
+    font-weight: 600;
+    align-items: center;
+}
+.big_mid_contact{
+    padding: 120px;
+    background: white;
+    position: relative;
+
+}
+.mid_contact{
+    background-color: #FFC4C4;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 0px 100px 60px 100px;
+}
+.mid_contact p{
+    color: white;
+    padding: 80px 0;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    
+}
+.mid_contact .main{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: -70px;
+}
+.mid_contact .main .left{
+    width: 50%;
+}
+.mid_contact .main .left button{
+    color: #fff;
+    background-color: #783b31;
+    padding: 18px 40px;
+    width: 100%;
+    border: none;
+    border-radius: 22px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.mid_contact .main .left .input1{
+    width: 100%;
+    display: flex;
+    column-gap: 14px;
+    box-sizing: border-box;
+}
+.mid_contact .main .left .input1 input{
+    width: 50%;
+    padding: 15px 12px;
+}
+.mid_contact .main .left .input2 input{
+    width: 95%;
+    margin-top: 15px;
+    padding: 15px 12px;
+}
+.mid_contact .main .left .input3 textarea{
+    width: 98%;
+    height: 250px;
+    margin-top: 15px;
+
+}
+.mid_contact .main .right{
+    width: 50%;
+    padding-left: 50px;
+}
+.mid_contact .main .right h1{
+    color: white;
+    font-size: 25px;
+}   
+.mid_contact .main .right h2
+{
+    color: #783b31;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.mid_contact .main .right h3
+{
+    color: #783b31;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: .6;
+    margin-top: -10px;
+}
+.mid_contact .img{
+    position: absolute;
+    right: 190px;
+    bottom: 0;
+}
+.mid_contact .img img{
+    width: 480px;
+}
+
